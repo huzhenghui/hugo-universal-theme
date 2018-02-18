@@ -45,8 +45,10 @@
                                           {{ i18n "authorBy" }} <a href="#">{{ .Params.author }}</a>
                                           {{ end }}
                                           {{ if isset .Params "categories" }}
+                                          {{ if ne .Params.categories nil }}
                                           {{ if gt (len .Params.categories) 0 }}
                                           in <a href="{{ $.Site.BaseURL }}categories/{{ index .Params.categories 0 | urlize | lower }}">{{ index .Params.categories 0 }}</a>
+                                          {{ end }}
                                           {{ end }}
                                           {{ end }}
 
