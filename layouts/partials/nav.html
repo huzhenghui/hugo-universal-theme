@@ -30,7 +30,13 @@
                       {{ end }}
                     </ul>
                     {{ else }}
-                    <a href="{{ .URL }}">{{ i18n .Name }}</a>
+                    <a href="{{ .URL }}">
+                      {{if i18n .Name }}
+                        {{ i18n .Name }}
+                      {{ else }}
+                        {{ .Name }}
+                      {{ end }}
+                    </a>
                     {{ end  }}
                   </li>
                   {{ end }}
