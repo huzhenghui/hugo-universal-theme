@@ -1,7 +1,4 @@
-weight: 4
+weight: 3
 title: "Docker"
-description: >
-  <ul class="list-style-none">
-    <li>Docker is the company driving the container movement and the only container platform provider to address every application across the hybrid cloud.</li>
-  </ul>
+description: "<p>Docker is the company driving the container movement and the only container platform provider to address every application across the hybrid cloud.</p>"
 image: "img/carousel/docker-whales-transparent.png"
