@@ -1,0 +1,8 @@
+weight: 3
+title: "PHP"
+description: >
+  <ul class="list-style-none">
+    <li>PHP is a popular general-purpose scripting language that is especially suited to web development.</li>
+    <li>Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world.</li>
+  </ul>
+image: "img/carousel/PHP_logo.png"
