@@ -1,0 +1,4 @@
+weight: 2
+name: "angular"
+icon: "fab fa-angular"
+description: "AngularJS lets you extend HTML vocabulary for your application. The resulting environment is extraordinarily expressive, readable, and quick to develop."
