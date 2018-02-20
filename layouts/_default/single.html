@@ -36,6 +36,12 @@
                         </div>
                         {{ end }}
 
+
+                        {{ range .Resources }}
+                        <li><a href="{{ .RelPermalink }}">{{ .ResourceType | title }}</a></li>
+                        {{ end }}
+
+
                     </div>
                     <!-- /#blog-post -->
 
