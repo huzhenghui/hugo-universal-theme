@@ -4,7 +4,7 @@
 - id: Blog
   translation: "博客"
 
-  id: Contact
+- id: Contact
   translation: "联系我们"
 
 - id: templateBy
